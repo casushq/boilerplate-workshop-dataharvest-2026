@@ -16,10 +16,9 @@ mkdir -p "$HOME/.pi/agent/skills"
 ln -sfn "$BOILERPLATE_DIR/skills/openfoodfacts" "$HOME/.pi/agent/skills/openfoodfacts"
 
 # Install Python dependencies for the skill
-if command -v pip3 &>/dev/null; then
-    pip3 install -q -r "$BOILERPLATE_DIR/skills/openfoodfacts/scripts/requirements.txt" \
-        || pip3 install -q --break-system-packages \
-               -r "$BOILERPLATE_DIR/skills/openfoodfacts/scripts/requirements.txt"
+if [ -f "$BOILERPLATE_DIR/skills/openfoodfacts/scripts/requirements.txt" ]; then
+    python3 -m pip install -q --break-system-packages \
+        -r "$BOILERPLATE_DIR/skills/openfoodfacts/scripts/requirements.txt"
 fi
 
 # Install OFF data prep systemd service (idempotent)
