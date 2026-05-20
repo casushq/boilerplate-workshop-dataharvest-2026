@@ -1,0 +1,19 @@
+[Unit]
+Description=Open Food Facts parquet download and country subset preparation
+After=network-online.target cloud-final.service
+Wants=network-online.target
+ConditionPathExists=!/home/$USER/data/openfoodfacts/.done
+
+[Service]
+Type=oneshot
+User=$USER
+WorkingDirectory=/home/$USER
+ExecStart=/home/$USER/dev/workshop-boilerplate/scripts/prepare_data.sh
+ExecStartPost=/bin/touch /home/$USER/data/openfoodfacts/.done
+StandardOutput=append:/home/$USER/data/openfoodfacts/prepare.log
+StandardError=append:/home/$USER/data/openfoodfacts/prepare.log
+TimeoutStartSec=3600
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
