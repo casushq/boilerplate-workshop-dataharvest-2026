@@ -1,3 +1,0 @@
-[submodule "skills/openfoodfacts"]
-	path = skills/openfoodfacts
-	url = https://github.com/linksmith/openfoodfacts-skill.git
