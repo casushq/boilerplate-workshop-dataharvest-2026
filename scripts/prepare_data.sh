@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Download the Open Food Facts parquet and build all country subsets.
+# Download the Open Food Facts parquet file.
 # Called by the off-data-prep systemd service on first boot. Idempotent.
 set -euo pipefail
 
@@ -9,10 +9,10 @@ SCRIPT="$BOILERPLATE_DIR/skills/openfoodfacts/scripts/download_data.py"
 
 mkdir -p "$DATA_DIR"
 
-echo "[$(date -Iseconds)] Starting OFF data preparation..."
+echo "[$(date -Iseconds)] Starting OFF data download..."
 echo "[$(date -Iseconds)] Data directory: $DATA_DIR"
 
-# Download full parquet (~7.5 GB) then build all default country subsets
+# Download full parquet (~7.5 GB)
 python3 "$SCRIPT" --data-dir "$DATA_DIR"
 
-echo "[$(date -Iseconds)] OFF data preparation complete."
+echo "[$(date -Iseconds)] OFF data download complete."
