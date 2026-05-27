@@ -27,7 +27,7 @@ echo "[$(date -Iseconds)] Data directory: $DATA_DIR" | tee -a "$LOG_FILE"
 S3_FILES=(
   food.parquet
   food_eu_all.parquet
-  food_us.parquet
+  food_united-states.parquet
   # EU-27 individual countries
   food_austria.parquet
   food_belgium.parquet
