@@ -46,7 +46,7 @@ Tell your agent:
 
 Before running the agent, consider adding to this file:
 - A specific category that surprised you in pre-reading
-- A country with a specific cultural context (UK breakfast cereals are notorious)
+- A country with a specific cultural context (UK has strong cereal data — use `en:united-kingdom` or `food_united-kingdom.parquet`; France and Germany also work well)
 - A hypothesis: "I think diet drinks are the clearest example" — write that in and the agent will investigate it first
 
 ---
