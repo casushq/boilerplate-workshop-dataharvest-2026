@@ -8,6 +8,7 @@ ConditionPathExists=!/home/$USER/data/openfoodfacts/.done
 Type=oneshot
 User=$USER
 WorkingDirectory=/home/$USER
+EnvironmentFile=/etc/dev-orchestrator.env
 ExecStart=/home/$USER/dev/workshop-boilerplate/scripts/prepare_data.sh
 ExecStartPost=/bin/touch /home/$USER/data/openfoodfacts/.done
 StandardOutput=append:/home/$USER/data/openfoodfacts/prepare.log
