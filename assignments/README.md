@@ -12,15 +12,18 @@ Part 2 (~15 min) goes deeper. Both produce a shareable HTML page.
 
 | Assignment | The claim | Best for |
 |---|---|---|
-| [A — The Mediterranean Trap](a-mediterranean-trap/assignment.md) | Nutri-Score punishes natural foods (olive oil, nuts, cheese) while rewarding industrial alternatives | Clear villain: the algorithm itself |
+| [A — The Mediterranean Trap · Part 1](a-mediterranean-trap/assignment-part-1.md) | Nutri-Score punishes natural foods (olive oil, nuts, cheese) while rewarding industrial alternatives — score comparison | Solid, presentable finding in ~15 min |
+| [A — The Mediterranean Trap · Part 2](a-mediterranean-trap/assignment-part-2.md) | Layer in NOVA processing data to find the sharpest paradoxes: natural foods scoring badly, ultra-processed scoring well | Deeper story, requires Part 1 output |
 
 ## How to run an assignment
 
 1. Open Claude Code or your Pi agent
-2. Point it at the assignment file:
-   > *"Follow the instructions in `assignments/a-mediterranean-trap/assignment.md`"*
+2. Start with Part 1:
+   > *"Follow the instructions in `assignments/a-mediterranean-trap/assignment-part-1.md`"*
 3. The agent will query the data and build an HTML page
-4. Refine, add your own angle, present
+4. When ready to go deeper, continue with Part 2:
+   > *"Follow the instructions in `assignments/a-mediterranean-trap/assignment-part-2.md`"*
+5. Refine, add your own angle, present
 
 **Want to customise first?** Edit the assignment file with your country, brand, or category before referencing it — the investigation will be sharper.
 

@@ -1,4 +1,4 @@
-# Assignment A — The Mediterranean Trap
+# Assignment A — The Mediterranean Trap · Part 1: The Score Comparison
 
 > Nutri-Score rates food on nutrients per 100g — but it doesn't care whether a food is
 > natural or industrial.
@@ -39,19 +39,6 @@ Tell your agent:
 
 ---
 
-## Part 2 — The NOVA paradox *(~15 min, harder)*
-
-Tell your agent:
-
-> *"Now add NOVA processing data to the comparison. Find products that are NOVA 1–2 (minimally processed) but score D or E — and any NOVA 4 (ultra-processed) products that score A or B. Add this to the HTML as a 'paradox products' section. Then do the same for nuts vs. chips-and-fries."*
-
-**What to look for:**
-- **Oils**: Coconut oil — NOVA 2, naturally saturated, scores D or E. Flavoured oil spray — NOVA 4, scores B. This is the clearest paradox in the oils category.
-- **Nuts vs. chips**: `en:almonds` tends to score A/B (proteins, fibre rewarded). `en:chips-and-fries` tends to score C/D (fat, salt penalised). Here Nutri-Score actually aligns with nutrition science — nuts ARE better. The paradox is explaining *why* it doesn't work the same way for oils.
-- **Cheese**: Hard cheeses and processed cheese slices score similarly (C/D) despite vastly different processing levels.
-
----
-
 ## Sharpen your angle
 
 Before running the agent, consider editing this file to add:
@@ -60,6 +47,14 @@ Before running the agent, consider editing this file to add:
 - Your headline hypothesis: "I think the oil category shows the clearest paradox"
 
 The agent will pick up any context you add above.
+
+---
+
+## What comes next
+
+Part 1 gives you a solid, presentable finding. When you're ready to go deeper,
+continue with **Part 2** (`assignment-part-2.md`) — it adds NOVA processing data
+to reveal the sharpest paradoxes: natural foods scoring badly, ultra-processed foods scoring well.
 
 ---
 

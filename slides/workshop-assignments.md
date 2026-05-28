@@ -40,7 +40,7 @@ Prove that Nutri-Score penalises natural traditional foods while rewarding indus
 ### Slide 5 — How to run it
 
 1. Open **Claude Code** or your **Pi agent**
-2. Say: *"Follow the instructions in `assignments/a-mediterranean-trap/assignment.md`"*
+2. Say: *"Follow the instructions in `assignments/a-mediterranean-trap/assignment-part-1.md`"*
 3. The agent queries 4.5M products and builds an **HTML page** with charts
 4. Refine with your own angle — the files are editable
 5. **Present your headline finding** in 2 minutes
@@ -74,4 +74,4 @@ Prove that Nutri-Score penalises natural traditional foods while rewarding indus
 
 ---
 
-*Assignment file in `boilerplate-workshop-dataharvest-2026/assignments/`*
+*Assignment files in `boilerplate-workshop-dataharvest-2026/assignments/a-mediterranean-trap/`: `assignment-part-1.md` and `assignment-part-2.md`*
