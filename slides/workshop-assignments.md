@@ -23,36 +23,24 @@
 
 ---
 
-### Slide 3 — Why it's broken: three stories
+### Slide 3 — Why it's broken
 
 🫒 **Olive oil gets C/D.** It's pressed olives. Diet soda gets B. It's water + artificial sweeteners.
 
-🏭 **1 in 10 ultra-processed products** (NOVA 4) still score A or B — the system can't tell the difference between a protein shake with 15 additives and a boiled egg.
-
-🏷️ **Brands play the game.** Nutri-Score is voluntary. Companies display it on their good products. Their worst products stay unlabelled.
-
 ---
 
-### Slide 4 — Your assignment (choose one)
+### Slide 4 — Your assignment
 
 **🫒 A — The Mediterranean Trap**
 Prove that Nutri-Score penalises natural traditional foods while rewarding industrial substitutes.
 → Olive oil vs. vegetable blends · Nuts vs. chips · Hard cheese vs. processed slices
-
-**🏭 B — The Ultra-Processed A-List**
-Find the paradox products: NOVA 4, ultra-processed — yet Nutri-Score A or B.
-→ Breakfast cereals · Diet drinks · Protein bars · What brands dominate the list?
-
-**🏷️ C — How Brands Game the System**
-Generate a full brand portfolio profile. Find the products they'd never voluntarily label.
-→ Nestlé, Kellogg's, Danone — or a "healthy" brand you want to verify
 
 ---
 
 ### Slide 5 — How to run it
 
 1. Open **Claude Code** or your **Pi agent**
-2. Say: *"Follow the instructions in `assignments/[a/b/c]-[name]/assignment.md`"*
+2. Say: *"Follow the instructions in `assignments/a-mediterranean-trap/assignment.md`"*
 3. The agent queries 4.5M products and builds an **HTML page** with charts
 4. Refine with your own angle — the files are editable
 5. **Present your headline finding** in 2 minutes
@@ -86,4 +74,4 @@ Generate a full brand portfolio profile. Find the products they'd never voluntar
 
 ---
 
-*Assignment files in `boilerplate-workshop-dataharvest-2026/assignments/`*
+*Assignment file in `boilerplate-workshop-dataharvest-2026/assignments/`*
